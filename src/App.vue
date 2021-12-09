@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view />
-    <h1>……]((o_ _)'彡☆</h1>
   </div>
 </template>
 
@@ -12,4 +11,12 @@ export default {
 </script>
 
 <style lang="less">
+h1 {
+  font-size: 20px;
+}
+.box {
+  width: 750px;
+  height: 64px;
+  background-color: skyblue;
+}
 </style>
