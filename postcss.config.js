@@ -29,7 +29,9 @@ module.exports = {
       //          PostCSS 处理每个 CSS 文件的时候都会来调用这个函数
       //          他会把被处理的 CSS 文件相关的信息通过参数传递给该函数
       // rootValue: 37.5,
-      rootValue({ file }) {
+      rootValue({
+        file
+      }) {
         // console.log('处理的CSS文件',file)
         return file.indexOf('vant') !== -1 ? 37.5 : 75
       },
