@@ -2,6 +2,8 @@
   <div id="app">
     <router-view />
     <h1>123123</h1>
+    <h1>123123</h1>
+    <h1>123123</h1>
   </div>
 </template>
 
