@@ -36,7 +36,10 @@ module.exports = {
         return file.indexOf('vant') !== -1 ? 37.5 : 75
       },
       // 配置要转换的 css 属性 * 表示所有
-      propList: ['*']
+      propList: ['*'],
+
+      // 配置不要转换的样式资源 exclude 代表要排除转换的文件 可以是字符串/正则/函数，如果是字符串 注意不带后缀名
+      exclude: 'github-markdown'
     }
   }
 }
